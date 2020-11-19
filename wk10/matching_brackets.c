@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
         i++;
     }
 
-    if (stack_size != 0) {
+    if (stack_size(opening_brackets) != 0) {
         valid = 0;
     }
 
